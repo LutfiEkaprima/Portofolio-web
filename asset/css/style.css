@@ -167,6 +167,7 @@ body {
     border-radius: 20%;
     width: 100px;
     height: 100px;
+    transition: transform .3s;
 }
 
 .Footer {
@@ -176,6 +177,8 @@ body {
 
 .Isi_Footer {
     padding: 10px 10%;
+    display: flex;
+    width: 100%;
 }
 
 .Isi_Footer p{
@@ -183,3 +186,11 @@ body {
     font-size: 16px;
 }
 
+.Isi_Footer .ITI{
+    margin-left: 595px;
+    text-align: right; 
+}
+
+.Isi_Contact img:hover{
+    transform: scale(.7);
+}
