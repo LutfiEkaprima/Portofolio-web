@@ -113,7 +113,6 @@ body {
     display: flex;
     align-items: center;
     margin-top: 50px;
-    padding: 20px 10%;
     margin-bottom: 50px;
 }
 
@@ -122,8 +121,12 @@ body {
     font-size: 40px;
 }
 
+.judul {
+    padding: 20px 10%;
+}
+
 .Isi_Pendidikan{
-    display: flex;
+    align-items: center;
 }
 
 .Isi_Pendidikan ul {
@@ -133,7 +136,9 @@ body {
 }
 
 .Isi_Pendidikan hr{
-    margin-right: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    
 }
 
 .Isi_Pendidikan li{
