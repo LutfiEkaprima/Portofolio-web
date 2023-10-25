@@ -100,10 +100,10 @@ body {
 }
 
 .sectionbody img {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     position: static; right: 40px;
-    margin-top: 200px;
+    margin-top: 300px;
     border-radius: 20%;
     
 }
@@ -123,24 +123,42 @@ body {
 
 .Isi_Pendidikan{
     display: flex;
-    justify-content: space-between;
-    padding: 20px 10%;
-
 }
 
 .Isi_Pendidikan ul {
+    display: flex;
     color: rgb(255, 255, 254);
+    padding-left: 0px;
+}
+
+.Isi_Pendidikan hr{
+    margin-right: 20px;
+}
+
+.Isi_Pendidikan li{
+    text-align: center;
+    width: 250px;
 }
 
 .Isi_Pendidikan li p{
+    text-align: center;
     color: rgb(148, 161, 178);
-    text-align: left;
     font-size: 16px;
 }
 
 .Isi_Contact {
     display: flex;
     margin-left: 50px;
+}
+
+.Skill {
+    display: flex;
+}
+
+.Skill h4{
+    color: rgb(255, 255, 254);
+    font-size: 20px;
+    margin-left: 25px;
 }
 
 .Section_Contact {
