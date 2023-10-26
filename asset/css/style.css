@@ -100,6 +100,7 @@ body {
     color: rgb(255, 255, 254);
 }
 
+
 .sectionbody img {
     width: 400px;
     height: 400px;
@@ -110,7 +111,6 @@ body {
 }
 
 .Section_Pendidikan {
-    display: flex;
     align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -123,6 +123,8 @@ body {
 
 .judul {
     padding: 20px 10%;
+    display: flex;
+    flex-direction: column;
 }
 
 .Isi_Pendidikan{
@@ -160,11 +162,13 @@ body {
 
 .Skill {
     display: inline;
-    padding: 20px 10%;
+    padding: 20px 5%;
 }
 
 .Skill h4{
     display: flex;
+    justify-content: center;
+    align-items: center;
     color: rgb(255, 255, 254);
     font-size: 20px;
     margin-left: 25px;
@@ -228,14 +232,10 @@ body {
     padding: 10px 10%;
     display: flex;
     width: 100%;
+    justify-content: space-between;
 }
 
 .Isi_Footer p{
     color: rgb(148, 161, 178);
     font-size: 16px;
-}
-
-.Isi_Footer .ITI{
-    margin-left: 595px;
-    text-align: right; 
 }
